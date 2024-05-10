@@ -13,9 +13,8 @@ const Navbar: React.FC<{}> = () => {
             className="icon"
             src="/logo.svg"
             alt="logo"
-            width={70}
-            height={70}
-            style={{marginTop:"32px"}}
+            width={60}
+            height={60}
           />
         </a>
 
