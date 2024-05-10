@@ -19,7 +19,7 @@ const Experience: React.FC<{}> = () => {
         <p className="text-gray-300 pt-5">
           Collaborated in designing, developing, and maintaining backend services for a
           cutting-edge fintech platform facilitating transactions between banks and
-          prominent brands like BlueStar, Apple. Integrated with leading banks' APIs and financial institutions to enable secure and
+          prominent brands like BlueStar, Apple. Integrated with leading banks APIs and financial institutions to enable secure and
           efficient transaction processing and fund transfers.Conducted code reviews, provided constructive feedback, and mentored junior
           developers to maintain high code quality standards and foster continuous learning
           and improvement.

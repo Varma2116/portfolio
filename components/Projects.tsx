@@ -119,7 +119,7 @@ const Projects: React.FC<{}> = () => {
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">GitHub Profile</p>
                 <p className="text-gray-500 text-[12px]">
-                I developed a web application using React.js to search all repositories on GitHub, utilizing GitHub's published APIs.
+                I developed a web application using React.js to search all repositories on GitHub, utilizing GitHub published APIs.
                 </p>
               </div>
             </div>
