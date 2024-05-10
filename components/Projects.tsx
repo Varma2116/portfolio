@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import "./main.scss"
 
 const Projects: React.FC<{}> = () => {
   return (
@@ -13,14 +14,7 @@ const Projects: React.FC<{}> = () => {
       </p>
       <div>
         <div
-          style={{
-            "display": "flex",
-            "justifyContent": "space-around",
-            "marginLeft": "13%",
-            "marginRight": "13%",
-            "alignItems": "center"
-
-          }}
+          className="projects"
         >
           <Link
             href="https://smart-meet-ten.vercel.app/"
@@ -30,16 +24,17 @@ const Projects: React.FC<{}> = () => {
             style={{ width: "32%" }}
 
           >
-            <div className="flex-row flex mb-5">
+            <div className="flex-row flex mb-5 image-cont">
               <Image
                 src="/hospital.jpg"
                 height={150}
+                className="image"
                 width={150}
                 alt="Booking Application"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">Booking Application</p>
-                <p className="text-gray-500 text-[12px]">
+                <p className="text-gray-500 text-[12px] p-text">
                 I developed a hospital booking system for scheduling patient appointments. 
                   The application allows new patients and hospitals to register and download reports using Next.js and Node.js.
                 </p>
@@ -54,8 +49,9 @@ const Projects: React.FC<{}> = () => {
             style={{ width: "32%" }}
 
           >
-            <div className="flex-row flex mb-5">
+            <div className="flex-row flex mb-5 image-cont">
               <Image
+                className="image"
                 src="/online.jpg"
                 height={150}
                 width={150}
@@ -63,7 +59,7 @@ const Projects: React.FC<{}> = () => {
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">Ecommerce Application</p>
-                <p className="text-gray-500 text-[12px]">
+                <p className="text-gray-500 text-[12px] p-text">
                 I developed a web application for an online e-commerce platform, allowing users to purchase products. 
                 I implemented a payment system using React and Java for seamless item purchase.
                 </p>
@@ -71,14 +67,7 @@ const Projects: React.FC<{}> = () => {
             </div>
           </Link>
         </div>
-        <div style={{
-          "display": "flex",
-          "justifyContent": "space-around",
-          "marginLeft": "13%",
-          "marginRight": "13%",
-          "alignItems": "center"
-
-        }}>
+        <div className="projects">
           <Link
             href="https://github.com/Varma2116/chat-service-backend"
             rel="noopener noreferrer"
@@ -86,8 +75,9 @@ const Projects: React.FC<{}> = () => {
             className="z-[1]"
             style={{ width: "32%" }}
           >
-            <div className="flex-row flex mb-5">
+            <div className="flex-row flex mb-5 image-cont">
               <Image
+                className="image"
                 src="/chat.jpg"
                 height={150}
                 width={150}
@@ -95,7 +85,7 @@ const Projects: React.FC<{}> = () => {
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">Chat Application</p>
-                <p className="text-gray-500 text-[12px]">
+                <p className="text-gray-500 text-[12px] p-text">
                 I designed a Chat Service enabling real-time communication with friends,
                 supporting group messages within the application. This was implemented using React and Node.js.
                 </p>
@@ -109,8 +99,9 @@ const Projects: React.FC<{}> = () => {
             target="_blank"
             className="z-[1]"
           >
-            <div className="flex-row flex mb-5">
+            <div className="flex-row flex mb-5 image-cont">
               <Image
+                className="image"
                 src="/GitHub_logo.webp"
                 height={150}
                 width={150}
@@ -118,7 +109,7 @@ const Projects: React.FC<{}> = () => {
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">GitHub Profile</p>
-                <p className="text-gray-500 text-[12px]">
+                <p className="text-gray-500 text-[12px] p-text">
                 I developed a web application using React.js to search all repositories on GitHub, utilizing GitHub published APIs.
                 </p>
               </div>

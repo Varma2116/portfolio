@@ -1,0 +1,32 @@
+.projects {
+    padding-left: 16px;
+    padding-right: 16px;
+
+    @media (min-width:1024px) {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 13%;
+        margin-right: 13%;
+        align-items: center
+    }
+
+    .image-cont {
+        @media(max-width:1023px) {
+            flex-direction: column;
+        }
+        .image {
+            @media(max-width:1023px) {
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+        }
+        .p-text{
+            @media(max-width: 1023px){
+                font-size: 16px;
+            }
+        }
+    }
+}
