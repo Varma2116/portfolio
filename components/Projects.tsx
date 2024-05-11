@@ -20,8 +20,7 @@ const Projects: React.FC<{}> = () => {
             href="https://smart-meet-ten.vercel.app/"
             rel="noopener noreferrer"
             target="_blank"
-            className="z-[1]"
-            style={{ width: "32%" }}
+            className="z-[1] project-block"
 
           >
             <div className="flex-row flex mb-5 image-cont">
@@ -45,8 +44,7 @@ const Projects: React.FC<{}> = () => {
             href="https://my-merch.vercel.app/"
             rel="noopener noreferrer"
             target="_blank"
-            className="z-[1]"
-            style={{ width: "32%" }}
+            className="z-[1] project-block"
 
           >
             <div className="flex-row flex mb-5 image-cont">
@@ -72,8 +70,7 @@ const Projects: React.FC<{}> = () => {
             href="https://github.com/Varma2116/chat-service-backend"
             rel="noopener noreferrer"
             target="_blank"
-            className="z-[1]"
-            style={{ width: "32%" }}
+            className="z-[1] project-block"
           >
             <div className="flex-row flex mb-5 image-cont">
               <Image
@@ -92,12 +89,11 @@ const Projects: React.FC<{}> = () => {
               </div>
             </div>
           </Link>
-          <Link
-            style={{ width: "32%" }}
+          <Link project-blockk
             href="https://github.com/Varma2116/github-Task"
             rel="noopener noreferrer"
             target="_blank"
-            className="z-[1]"
+            className="z-[1] project-block"
           >
             <div className="flex-row flex mb-5 image-cont">
               <Image

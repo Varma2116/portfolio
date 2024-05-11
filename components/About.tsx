@@ -1,4 +1,5 @@
 import React from "react";
+import './main.scss';
 
 const About: React.FC<{}> = () => {
   return (
@@ -12,7 +13,7 @@ const About: React.FC<{}> = () => {
         <p className=" tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl">
           EXPLORE NOW
         </p>
-        <p className="text-gray-300 text-center ">
+        <p className="text-gray-300 text-center passionate">
           As a passionate software developer, I thrive on the intricate dance
           between logic and creativity. Currently immersed in the dynamic world
           of Shopse, my expertise centers around Web Development, where I seamlessly

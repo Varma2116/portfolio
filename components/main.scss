@@ -8,7 +8,28 @@
     }
 }
 
+.passionate{
+    @media(max-width:1023px){
+        padding: 1.25rem;
+        padding-right: 4%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: unset;
+        padding-left: 4%;
+        text-align: justify;
+    }
+}
+
 .projects {
+    .project-block{
+        @media (max-width:1024px) {
+            width: 100%;
+        }
+        @media (min-width:1025px) {
+            width: 32%;
+        }
+    }
     @media (min-width:1024px) {
         display: flex;
         justify-content: space-around;
