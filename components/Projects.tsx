@@ -17,7 +17,7 @@ const Projects: React.FC<{}> = () => {
           className="projects"
         >
           <Link
-            href="https://smart-meet-ten.vercel.app/"
+            href="https://github.com/Varma2116/smart-meet"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1] project-block"
@@ -41,7 +41,7 @@ const Projects: React.FC<{}> = () => {
             </div>
           </Link>
           <Link
-            href="https://my-merch.vercel.app/"
+            href="https://github.com/Varma2116/my-merch"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1] project-block"
