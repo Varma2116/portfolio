@@ -35,7 +35,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ background: "unset", width: "120px" }}
+              style={{ background: "unset", width: "92px" }}
             />
             <div className="tab" style={{ background: "#FF0000", borderTop: "2px solid #FF0000" }}>
               Redis
@@ -65,7 +65,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "50%", background: "unset", width: "90px" }}
+              style={{ borderRadius: "50%", background: "unset", width: "70px" }}
             />
             <div className="tab" style={{ background: "#00dfd8", borderTop: "2px solid #00dfd8" }}>
               React
@@ -80,7 +80,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "20%", background: "unset", width: "100px" }}
+              style={{ borderRadius: "20%", background: "unset", width: "79px" }}
             />
             <div className="tab" style={{ background: "#c3b017", borderTop: "2px solid #c3b017" }}>
               Javascript
@@ -95,7 +95,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "20%", background: "unset", width: "88px" }}
+              style={{ borderRadius: "20%", background: "unset", width: "69px" }}
             />
             <div className="tab" style={{ background: "#e44f26", borderTop: "2px solid #e44f26" }}>
               HTML
@@ -110,7 +110,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "20%", background: "unset", width: "88px" }}
+              style={{ borderRadius: "20%", background: "unset", width: "69px" }}
             />
             <div className="tab" style={{ background: "#1fa3bc", borderTop: "2px solid #1fa3bc" }}>
               CSS
@@ -125,7 +125,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "20%", background: "unset", width: "89px" }}
+              style={{ borderRadius: "20%", background: "unset", width: "70px" }}
             />
             <div className="tab" style={{ background: "#7cc327", borderTop: "2px solid #7cc327" }}>
               Node
@@ -140,7 +140,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "20%", background: "unset", width: "100px" }}
+              style={{ borderRadius: "20%", background: "unset", width: "79px" }}
             />
             <div className="tab" style={{ background: "#009546", borderTop: "2px solid #009546" }}>
               Mongo
@@ -155,7 +155,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "20%", background: "unset", width: "100px" }}
+              style={{ borderRadius: "20%", background: "unset", width: "79px" }}
             />
             <div className="tab" style={{ background: "#336791", borderTop: "2px solid #336791" }}>
               MYSQL
@@ -176,7 +176,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "50%", background: "#fff", width: "100px" }}
+              style={{ borderRadius: "50%", background: "#fff", width: "79px" }}
             />
             <div className="tab" style={{ background: "#797979", borderTop: "2px solid #797979" }}>
               Github
@@ -191,7 +191,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "50%", background: "unset", width: "100px" }}
+              style={{ borderRadius: "50%", background: "unset", width: "79px" }}
             />
             <div className="tab" style={{ background: "#232f3e", borderTop: "2px solid #232f3e" }}>
               AWS
@@ -206,7 +206,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "50%", background: "unset", width: "100px" }}
+              style={{ borderRadius: "50%", background: "unset", width: "79px" }}
             />
             <div className="tab" style={{ background: "#797979", borderTop: "2px solid #797979" }}>
               Vercel
@@ -221,7 +221,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "50%", background: "unset", width: "100px" }}
+              style={{ borderRadius: "50%", background: "unset", width: "79px" }}
             />
             <div className="tab" style={{ background: "#e95420", borderTop: "2px solid #e95420" }}>
               Ubuntu
@@ -236,7 +236,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "50%", background: "unset", width: "73px" }}
+              style={{ borderRadius: "50%", background: "unset", width: "58px" }}
             />
             <div className="tab" style={{ background: "#fcca3f", borderTop: "2px solid #fcca3f" }}>
               Firebase
@@ -258,7 +258,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "unset", background: "unset", width: "70px", marginBottom:"32px", marginTop:"20px"}}
+              style={{ borderRadius: "unset", background: "unset", width: "50px", marginBottom:"20px", marginTop:"30px"}}
             />
             <div className="tab" style={{ background: "#0075b7", borderTop: "2px solid #0075b7" }}>
               Visual Code
@@ -273,7 +273,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "50%", background: "unset", width: "100px" }}
+              style={{ borderRadius: "50%", background: "unset", width: "79px" }}
             />
             <div className="tab" style={{ background: "#9d5025", borderTop: "2px solid #9d5025" }}>
               Postman
@@ -288,7 +288,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "50%", background: "unset", width: "100px" }}
+              style={{ borderRadius: "50%", background: "unset", width: "79px" }}
             />
             <div className="tab" style={{ background: "#39adbb", borderTop: "2px solid #39adbb" }}>
               Intellij
@@ -303,7 +303,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "50%", background: "unset", width: "100px" }}
+              style={{ borderRadius: "50%", background: "unset", width: "79px" }}
             />
             <div className="tab" style={{ background: "#7928ca", borderTop: "2px solid #7928ca" }}>
               Figma
