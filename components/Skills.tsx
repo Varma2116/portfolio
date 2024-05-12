@@ -8,7 +8,7 @@ const Skills: React.FC<{}> = () => {
       <h1 className="text-white font-semibold text-center text-6xl pt-[35px]">
         SKILLS
       </h1>
-      <p className=" tracking-[0.5em] text-center text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl " style={{ fontSize:"24px", marginTop:"18px" }}>
+      <p className=" tracking-[0.5em] text-center text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl " style={{ fontSize:"18px", marginTop:"18px" }}>
         KNOWN LANGUAGES
       </p>
       <div className="skill-container">
@@ -164,8 +164,8 @@ const Skills: React.FC<{}> = () => {
         </div>
       </div>
 
-      <p className=" tracking-[0.5em] text-center text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl " style={{ marginTop: "48px", fontSize:"24px" }}>
-        HOSTING LANGUAGES
+      <p className=" tracking-[0.5em] text-center text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl " style={{ marginTop: "48px", fontSize:"18px" }}>
+        HOSTING PLATFORMS
       </p>
       <div className="skill-container">
         <div className="skills" style={{ border: "2px solid #797979" }}>
@@ -245,7 +245,7 @@ const Skills: React.FC<{}> = () => {
         </div>
       </div>
 
-      <p className=" tracking-[0.5em] text-center text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl " style={{ marginTop: "48px", fontSize:"24px" }}>
+      <p className=" tracking-[0.5em] text-center text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl " style={{ marginTop: "48px", fontSize:"18px" }}>
         TOOLS
       </p>
 
