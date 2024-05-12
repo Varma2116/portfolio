@@ -1,5 +1,5 @@
 import React from "react";
-import './main.scss';
+
 
 const About: React.FC<{}> = () => {
   return (
@@ -14,6 +14,12 @@ const About: React.FC<{}> = () => {
           EXPLORE NOW
         </p>
         <p className="text-gray-300 text-center passionate">
+          Experienced full stack developer with 4 years of full-stack development expertise. Proven ability to develop and
+          maintain efficient, secure and scalable applications for businesses of all sizes. Passionate and hardworking
+          with penchant for developing customized interfaces that factor in unique demands for accessibility,
+          reachability and security.
+          <br />
+          <br />
           As a passionate software developer, I thrive on the intricate dance
           between logic and creativity. Currently immersed in the dynamic world
           of Shopse, my expertise centers around Web Development, where I seamlessly
@@ -24,12 +30,6 @@ const About: React.FC<{}> = () => {
           ever-evolving landscape of software development. My journey involves
           translating concepts into code, creating seamless user experiences,
           and constantly pushing the boundaries of what&#39;s possible
-          <br />
-          <br />
-          Experienced full stack developer with 4 years of full-stack development expertise. Proven ability to develop and
-          maintain efficient, secure and scalable applications for businesses of all sizes. Passionate and hardworking
-          with penchant for developing customized interfaces that factor in unique demands for accessibility,
-          reachability and security.
         </p>
       </div>
     </section>

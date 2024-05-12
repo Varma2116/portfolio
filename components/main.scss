@@ -62,6 +62,57 @@
     }
 }
 
+.skill-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin-left: auto;
+    flex-wrap: wrap;
+    margin-right: auto;
+    @media(max-width:767px){
+        justify-content: space-around;
+    }
+    .skills{
+        border: 2px solid #797979;
+        width: 165px;
+        height: 170px;
+        border-radius: 30px;
+        margin-right: 40px;
+        margin-bottom: 16px;
+        @media(max-width:767px){
+            margin-right: unset;
+        }
+        .language{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+            img{
+                background: #fff;
+                width: 100px;
+                margin-top: 12px;
+                margin-bottom: 8px;
+            }
+            .tab{
+                border-bottom-left-radius: 22px;
+                border-bottom-right-radius: 22px;
+                color: #fff;
+                display: flex;
+                background: #797979;
+                justify-content: center;
+                margin-top: 12px;
+                border-top: 2px solid #797979;
+                width: 100%;
+                padding-top: 2px;
+                font-size: 20px;
+            }
+        }   
+    }
+}
+
 .icon {
     @media(max-width:1023px) {
         width: 50px;

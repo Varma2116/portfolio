@@ -11,7 +11,7 @@ const Navbar: React.FC<{}> = () => {
         <a href="/" className="h-auto w-auto flex flex-row items-center">
           <Image
             className="icon"
-            src="/logo.svg"
+            src="/devto.svg"
             alt="logo"
             width={60}
             height={60}
@@ -21,9 +21,10 @@ const Navbar: React.FC<{}> = () => {
         <div className="flex flex-row gap-5">
           <div
             onClick={() => window.open("mailto:jvvprasad123@gmail.com")}
+            style={{background:"#2E2E2E"}}
             className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  py-2 px-5"
           >
-            Contact
+            Hire Me
           </div>
         </div>
       </div>

@@ -112,6 +112,31 @@ const Projects: React.FC<{}> = () => {
             </div>
           </Link>
         </div>
+        {/* <div className="projects">
+          <Link
+            href="https://github.com/Varma2116/system-design"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1] project-block"
+          >
+            <div className="flex-row flex mb-5 image-cont">
+                <Image
+                  className="image"
+                  src="/system.jpg"
+                  height={200}
+                  width={150}
+                  alt="System Design"
+                />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">System Design</p>
+                <p className="text-gray-500 text-[12px] p-text">
+                  Explore my curated GitHub repository showcasing system designs for real-world scalable applications like Zomato and Ola,
+                 demonstrating my passion for learning and analyzing complex systems
+                </p>
+              </div>
+            </div>
+          </Link>
+          </div> */}
       </div>
     </section>
   );
