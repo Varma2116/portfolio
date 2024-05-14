@@ -16,11 +16,11 @@ const Projects: React.FC<{}> = () => {
         <div
           className="projects"
         >
-          <a
+          <Link
             href="https://github.com/Varma2116/smart-meet"
+            rel="noopener noreferrer"
             target="_blank"
             className="z-[1] project-block"
-            passHref={true}
           >
             <div className="flex-row flex mb-5 image-cont">
               <Image
@@ -38,7 +38,7 @@ const Projects: React.FC<{}> = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
           <Link
             href="https://github.com/Varma2116/my-merch"
             rel="noopener noreferrer"
