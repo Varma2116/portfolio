@@ -7,8 +7,8 @@ import "./main.scss"
 const Navbar: React.FC<{}> = () => {
   return (
     <div className="w-full h-[65px] bg-['#111'] fixed backdrop-blur-sm z-50 px-10">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
-        <a href="/" className="h-auto w-auto flex flex-row items-center">
+      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]" style={{justifyContent:"end"}}>
+        {/* <a href="/" className="h-auto w-auto flex flex-row items-center">
           <Image
             className="icon"
             src="/devto.svg"
@@ -16,7 +16,7 @@ const Navbar: React.FC<{}> = () => {
             width={60}
             height={60}
           />
-        </a>
+        </a> */}
 
         <div className="flex flex-row gap-5">
           <div

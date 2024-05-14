@@ -33,8 +33,8 @@
     @media (min-width:1024px) {
         display: flex;
         justify-content: space-around;
-        margin-left: 13%;
-        margin-right: 13%;
+        margin-left: 10%;
+        margin-right: 10%;
         align-items: center
     }
 
@@ -42,8 +42,17 @@
         @media(max-width:1023px) {
             flex-direction: column;
         }
+        .text-content{
+            padding-top: unset;
+            .text-con{
+                width: 246px;
+            }
+        }
 
         .image {
+            @media(min-width:1024px){
+                height: 100%;
+            }
             @media(max-width:1023px) {
                 height: 100%;
                 display: flex;

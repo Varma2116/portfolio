@@ -261,7 +261,7 @@ const Skills: React.FC<{}> = () => {
               style={{ borderRadius: "unset", background: "unset", width: "50px", marginBottom:"20px", marginTop:"30px"}}
             />
             <div className="tab" style={{ background: "#0075b7", borderTop: "2px solid #0075b7" }}>
-              Visual Code
+              VS Code
             </div>
           </div>
         </div>
