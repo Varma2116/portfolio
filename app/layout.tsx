@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    "https://my-merch.vercel.app/"
+    "https://portfolio-vara-prasad.vercel.app/"
   ),
   title: "Jaladanki Venkata Vara Prasad Portfolio",
   description: "Developer Portfolio By Jaladanki Venkata Vara Prasad",

@@ -33,8 +33,8 @@ const StarBackground = (props: any) => {
 };
 
 const StarsCanvas: React.FC<{}> = () => (
-  <div className="w-full h-auto fixed inset-0 z-[1] ">
-    <Canvas camera={{ position: [0, 0, 1] }}>
+  <div className="w-full h-auto fixed inset-0 z-[1] " style={{ pointerEvents: 'none' }}>
+    <Canvas camera={{ position: [0, 0, 1] }}  style={{ pointerEvents: 'none' }}>
       <Suspense fallback={null}>
         <StarBackground />
       </Suspense>

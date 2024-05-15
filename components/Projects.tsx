@@ -5,7 +5,7 @@ import "./main.scss"
 
 const Projects: React.FC<{}> = () => {
   return (
-    <section id="projects">
+    <section>
       <h1 className="text-white font-semibold text-center text-6xl pt-[35px]">
         PROJECTS
       </h1>
@@ -88,7 +88,7 @@ const Projects: React.FC<{}> = () => {
               </div>
             </div>
           </Link>
-          <Link project-blockk
+          <Link
             href="https://github.com/Varma2116/github-Task"
             rel="noopener noreferrer"
             target="_blank"
