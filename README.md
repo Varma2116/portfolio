@@ -1,3 +1,3 @@
 # Personal Developer Portfolio 🚀
 
-[![Site preview](/public/site-preview.png)](https://developer-portfolio-ibrahim-memons-projects.vercel.app/)
+[![Site preview](/public/)](https://portfolio-vara-prasad.vercel.app/)
