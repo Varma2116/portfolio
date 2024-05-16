@@ -37,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode; })
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://portfolio-vara-prasad.vercel.app/" />
+        <meta name="google-site-verification" content="zwbuklX9468d6bylchGKWofPRkkQweNZWrOCH5wfxPg" />
       </head>
       <body className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}>
         <StarsCanvas />
