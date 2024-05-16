@@ -20,7 +20,7 @@ const Skills: React.FC<{}> = () => {
               height={300}
               width={300}
               alt="Jaladanki Venkata Vara Prasad"
-              style={{ borderRadius: "32%", background: "unset", width: "155px", padding: "15px" }}
+              style={{ borderRadius: "32%", background: "unset", width: "155px", padding: "16px" }}
             />
             <div className="tab" style={{ background: "#336791", borderTop: "2px solid #336791" }}>
               Java
