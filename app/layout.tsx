@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   ),
   title: "Jaladanki Venkata Vara Prasad Freelancer Portfolio",
   description: "Jaladanki Venkata Vara Prasad Freelancer Portfolio",
-  content : "Jaladanki Venkata Vara Prasad Freelancer Portfolio",
   keywords: ["Developer", "Portfolio", "Developer Portflio", "JVVPRASAD", "JALADANKI VENKATA VARA PRASAD"],
   openGraph: {
     title: "JALADANKI VENKATA VARA PRASAD",
