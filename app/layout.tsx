@@ -10,8 +10,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     "https://portfolio-vara-prasad.vercel.app/"
   ),
-  title: "Jaladanki Venkata Vara Prasad Portfolio",
-  description: "Developer Portfolio By Jaladanki Venkata Vara Prasad",
+  title: "Jaladanki Venkata Vara Prasad Freelancer Portfolio",
+  description: "Jaladanki Venkata Vara Prasad Freelancer Portfolio",
+  content : "Jaladanki Venkata Vara Prasad Freelancer Portfolio",
   keywords: ["Developer", "Portfolio", "Developer Portflio", "JVVPRASAD", "JALADANKI VENKATA VARA PRASAD"],
   openGraph: {
     title: "JALADANKI VENKATA VARA PRASAD",
